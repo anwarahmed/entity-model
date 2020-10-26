@@ -3,6 +3,6 @@ namespace DoubleA.EntityModel.Entities
 {
     public interface IKeyedEntity
     {
-        Guid Id { get; }
+        Guid Id { get; set; }
     }
 }
