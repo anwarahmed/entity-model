@@ -1,10 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
+    <PropertyGroup>
+        <PackageId>DoubleA.EntityModel</PackageId>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageVersion>1.0.0.0</PackageVersion>
+        <Authors>Anwar Ahmed</Authors>
+        <PackageLicense>MIT</PackageLicense>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Owners>Anwar Ahmed</Owners>
+        <PackageProjectUrl>https://github.com/anwarahmed/entity-model</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/anwarahmed/entity-model</RepositoryUrl>
+        <PackageTags>DoubleA, Entity Model</PackageTags>
+        <Title>DoubleA.EntityModel</Title>
+        <Description>Library to represent very basic database entities</Description>
+        <ReleaseVersion>1.0.0.0</ReleaseVersion>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="Entities\" />
+    </ItemGroup>
 </Project>
