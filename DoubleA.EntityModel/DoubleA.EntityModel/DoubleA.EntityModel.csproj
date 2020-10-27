@@ -2,19 +2,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <PackageId>DoubleA.EntityModel</PackageId>
+        <Title>DoubleA.EntityModel</Title>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <PackageVersion>1.0.0.0</PackageVersion>
+        <Owners>Anwar Ahmed</Owners>
         <Authors>Anwar Ahmed</Authors>
+        <Description>Library to represent very basic database entities</Description>
+        <ReleaseVersion>1.0.0.0</ReleaseVersion>
+        <PackageVersion>1.0.0.0</PackageVersion>
         <PackageLicense>MIT</PackageLicense>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <Owners>Anwar Ahmed</Owners>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageProjectUrl>https://github.com/anwarahmed/entity-model</PackageProjectUrl>
         <RepositoryUrl>https://github.com/anwarahmed/entity-model</RepositoryUrl>
         <PackageTags>DoubleA, Entity Model</PackageTags>
-        <Title>DoubleA.EntityModel</Title>
-        <Description>Library to represent very basic database entities</Description>
-        <ReleaseVersion>1.0.0.0</ReleaseVersion>
-        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <LangVersion>latest</LangVersion>
