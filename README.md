@@ -1,4 +1,4 @@
-# DoubleA.EntityModel
+## DoubleA.EntityModel
 
 This library provides a very simple entity structure that can be used with an ORM like EntityFramework.
 
