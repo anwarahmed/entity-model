@@ -4,8 +4,8 @@ namespace DoubleA.EntityModel.Entities
 {
     public interface ITrackedEntity
     {
-        DateTime Created { get; set; }
+        DateTime CreatedOn { get; set; }
 
-        DateTime Updated { get; set; }
+        DateTime UpdatedOn { get; set; }
     }
 }
