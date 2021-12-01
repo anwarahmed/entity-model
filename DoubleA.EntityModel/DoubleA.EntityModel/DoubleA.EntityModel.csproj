@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <PackageId>DoubleA.EntityModel</PackageId>
-        <Title>DoubleA.EntityModel</Title>
-        <TargetFramework>netstandard2.1</TargetFramework>
-        <Owners>Anwar Ahmed</Owners>
-        <Authors>Anwar Ahmed</Authors>
-        <Description>Library to represent very basic database entities</Description>
-        <ReleaseVersion>1.0.1.0</ReleaseVersion>
-        <PackageVersion>1.0.1.0</PackageVersion>
-        <PackageLicense>MIT</PackageLicense>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-        <PackageProjectUrl>https://github.com/anwarahmed/entity-model</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/anwarahmed/entity-model</RepositoryUrl>
-        <PackageTags>DoubleA, Entity Model</PackageTags>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <LangVersion>latest</LangVersion>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-        <LangVersion>latest</LangVersion>
-    </PropertyGroup>
-    <ItemGroup>
-        <Folder Include="Entities\" />
-    </ItemGroup>
+	<PropertyGroup>
+		<PackageId>DoubleA.EntityModel</PackageId>
+		<Title>DoubleA.EntityModel</Title>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<Owners>Anwar Ahmed</Owners>
+		<Authors>Anwar Ahmed</Authors>
+		<Description>Library to represent very basic database entities</Description>
+		<ReleaseVersion>1.1.0.0</ReleaseVersion>
+		<PackageVersion>1.1.0.0</PackageVersion>
+		<PackageLicense>MIT</PackageLicense>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageProjectUrl>https://github.com/anwarahmed/entity-model</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/anwarahmed/entity-model</RepositoryUrl>
+		<PackageTags>DoubleA, Entity Model</PackageTags>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<Folder Include="Entities\" />
+	</ItemGroup>
 </Project>
